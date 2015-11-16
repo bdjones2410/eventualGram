@@ -1,0 +1,129 @@
+$tableblue: #3498db;
+$clouds: #ecf0f1;
+
+
+/****************************************
+    OVERALL
+****************************************/
+
+
+
+body{
+  background-color:lightblue;
+  color:$clouds;
+}
+header{
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: #34495e;
+  padding:20px;
+  h1{
+    margin-top:0;
+    font-size:4em;
+    text-shadow: 1px 1px 2px black;
+  }
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+
+/****************************************
+    GALLERY
+****************************************/
+
+
+
+.mainDisplay{
+  width:100%;
+
+}
+
+.gallery{
+  padding-bottom:50px;
+  padding-right:0;
+}
+
+.picContain{
+  padding:8px;
+  margin-top:5px;
+
+  .images{
+    background-color:$tableblue;
+    overflow: hidden;
+    height:220px;
+    border-bottom:1px solid white;
+    border-top-right-radius:5px;
+    border-top-left-radius: 5px;
+
+    img{
+    min-width:100%;
+    height:100%;
+    box-shadow: 0px 14px 37px 10px rgba(0, 0, 0, 0.75);
+    }
+  }
+  .caption{
+    white-space: nowrap;;
+    background-color:$tableblue;
+    padding:0;
+    padding-top: 2px;
+    text-align: center;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: inset 0px 7px 37px -13px rgba(0,0,0,0.84);
+
+    div{
+      h4{
+        overflow: scroll;
+        margin: 0;
+        height: 30px;
+      }
+    }
+  }
+}
+.likeMe{
+  font-size:1em;
+  padding:0;
+  text-align: center;
+}
+
+.delete{
+  float:right;
+  padding: 2px;
+  padding-right:5px;
+  color:#D40000;
+}
+.capt{
+  display:block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/****************************************
+    UPLOAD
+****************************************/
+
+
+
+.upload{
+  min-height:400px;
+
+}
+form{
+  width:80%;
+  margin:13px auto;
+  background-color:$tableblue;
+  padding:10px;
+  border-radius:5px;
+  color:black;
+  box-shadow: inset 0px 7px 37px -17px rgba(0,0,0,0.84);
+}
+input {
+  width:100%;
+  margin:10px auto;
+  display:block;
+}
+.sub{
+  display:block;
+}
